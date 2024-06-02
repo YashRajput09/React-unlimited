@@ -6,6 +6,7 @@ import ArrayOne from "./components/ArrayOne";
 import RemoveArrItem from  "./components/RemoveArrItem";
 import AddArrItem from "./components/AddArrItem";
 import ActivityOne from "./components/ActivityOne";
+import Props from "./components/props/Props";
 
 function App(){
   return (
@@ -17,7 +18,9 @@ function App(){
         {/* < ArrayOne /> */}
         {/* < RemoveArrItem /> */}
         {/* < AddArrItem /> */}
-        < ActivityOne />
+        {/* < ActivityOne /> */}
+        < Props text="Know More" />
+        < Props text="Download"/>
     </>
   )
 }
