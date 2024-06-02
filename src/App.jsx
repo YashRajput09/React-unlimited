@@ -5,6 +5,7 @@ import Addproperty from "./components/Addproperty";
 import ArrayOne from "./components/ArrayOne";
 import RemoveArrItem from  "./components/RemoveArrItem";
 import AddArrItem from "./components/AddArrItem";
+import ActivityOne from "./components/ActivityOne";
 
 function App(){
   return (
@@ -15,7 +16,8 @@ function App(){
         {/* < Addproperty /> */}
         {/* < ArrayOne /> */}
         {/* < RemoveArrItem /> */}
-        < AddArrItem />
+        {/* < AddArrItem /> */}
+        < ActivityOne />
     </>
   )
 }
