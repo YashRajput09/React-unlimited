@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import State from "./components/State";
 import Addproperty from "./components/Addproperty";
 import ArrayOne from "./components/ArrayOne";
+import RemoveArrItem from  "./components/RemoveArrItem"
 function App(){
   return (
     // <> this sign called fragments, without creating a new div we can return multiple components
@@ -10,7 +11,8 @@ function App(){
         {/* <Card /> */}
         {/* <State /> */}
         {/* < Addproperty /> */}
-        < ArrayOne />
+        {/* < ArrayOne /> */}
+    < RemoveArrItem />
     </>
   )
 }
