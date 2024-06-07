@@ -9,12 +9,9 @@ import ActivityOne from "./components/ActivityOne";
 import Props from "./components/props/Props";
 import PropsCard from "./components/props/PropsCard";
 import UserData from "./components/parentComponent/UserData";
+import MusicWeb from "./components/parentComponent/MusicWeb";
 
 function App(){
- 
-
- 
-
   return (
     // <> this sign called fragments, without creating a new div we can return multiple components
     <> 
@@ -27,7 +24,9 @@ function App(){
         {/* < ActivityOne /> */}
         {/* < Props text="Know More" />
         < Props text="Download"/> */}
-        < UserData />
+        {/* < UserData /> */}
+        < MusicWeb />
+
     </>
   )
 }
