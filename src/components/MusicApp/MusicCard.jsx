@@ -11,7 +11,7 @@ const {title, artist, img, favourite} = item;
                 <h3 className="font-semibold">{title}</h3>
                 <h5 className="text-xs">{artist}</h5>
             </div>
-            <button onClick={()=> handleClick(index)} className={`px-3 py-2 ${favourite ? "bg-green-400" : "bg-orange-500"} text-white rounded-full bottom-0 absolute left-1/2 -translate-x-[50%] translate-y-[50%] text-xs font-semibold whitespace-nowrap`}>{favourite ? "Favourites" : "Add Favourites"}</button>
+            <button onClick={()=> handleClick(index)} className={`px-3 py-2 ${favourite ? "bg-emerald-500" : "bg-orange-500"} text-white rounded-full bottom-0 absolute left-1/2 -translate-x-[50%] translate-y-[50%] text-xs font-semibold whitespace-nowrap`}>{favourite ? "Added" : "Add Favourites"}</button>
         </div>
     )
 }

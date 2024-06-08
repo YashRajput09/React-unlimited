@@ -28,7 +28,7 @@ const handleFavBtn = (clickedBtnIndex)=>{
 
     return(
         <div className="w-full h-screen bg-zinc-300">
-            < NaveBar />
+            < NaveBar musicData={musicDetail}/>
             <div className="flex gap-10 flex-wrap px-20 mt-8">
                 {musicDetail.map((item, index)=>(
 
