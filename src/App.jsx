@@ -11,6 +11,7 @@ import PropsCard from "./components/props/PropsCard";
 import UserData from "./components/parentComponent/UserData";
 import MusicWeb from "./components/parentComponent/MusicWeb";
 import FHUseRef from "./components/FormHandling/FHUseRef";
+import FHControledComponents from "./components/FormHandling/FHControledComponents";
 
 function App(){
   return (
@@ -27,7 +28,8 @@ function App(){
         < Props text="Download"/> */}
         {/* < UserData /> */}
         {/* < MusicWeb /> */}
-        < FHUseRef />
+        {/* < FHUseRef /> */}
+        < FHControledComponents />
 
     </>
   )
