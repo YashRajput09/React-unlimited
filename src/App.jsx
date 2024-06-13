@@ -12,6 +12,8 @@ import UserData from "./components/parentComponent/UserData";
 import MusicWeb from "./components/parentComponent/MusicWeb";
 import FHUseRef from "./components/FormHandling/FHUseRef";
 import FHControledComponents from "./components/FormHandling/FHControledComponents";
+import FHReactHook from "./components/FormHandling/FHReactHook";
+import FHParentComponent from "./components/FormHandling/formData/FHParentComponent";
 
 function App(){
   return (
@@ -29,7 +31,10 @@ function App(){
         {/* < UserData /> */}
         {/* < MusicWeb /> */}
         {/* < FHUseRef /> */}
-        < FHControledComponents />
+        {/* < FHControledComponents /> */}
+        {/* < FHReactHook /> */}
+        < FHParentComponent />
+
 
     </>
   )
