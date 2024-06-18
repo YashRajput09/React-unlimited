@@ -4,8 +4,8 @@ import Form from './formActivity/Form';
 
 function FHControledComponent(){
     return(
-        <div className='w-full h-screen bg-zinc-200 flex jsutify-center items-center'>
-            <div className="container mx-auto bg-white">
+        <div className='w-full h-screen bg-zinc-200 flex justify-center items-center'>
+            <div className="mx-12 rounded-lg">
             < Cards />
             < Form />
             </div>
