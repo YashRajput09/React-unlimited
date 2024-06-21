@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
+import Routers from './Routers';
 
 function NavBar() {
     return (
@@ -11,10 +10,7 @@ function NavBar() {
            <Link to="/About">About</Link>
         </nav>
 
-        <Routes>
-            <Route path='/' element={ < Home /> }></Route>
-            <Route path='/about' element={ < About />}></Route>
-        </Routes>
+        < Routers />    
         </>
     )
 }
