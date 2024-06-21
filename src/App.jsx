@@ -14,6 +14,7 @@ import FHUseRef from "./components/FormHandling/FHUseRef";
 import FHControledComponents from "./components/FormHandling/FHControledComponents";
 import FHReactHook from "./components/FormHandling/FHReactHook";
 import FHParentComponent from "./components/FormHandling/formData/FHParentComponent";
+import RouterContainer from "./components/Routing/routingParent/RouterContainer";
 
 function App(){
   return (
@@ -33,8 +34,8 @@ function App(){
         {/* < FHUseRef /> */}
         {/* < FHControledComponents /> */}
         {/* < FHReactHook /> */}
-        < FHParentComponent />
-
+        {/* < FHParentComponent /> */}
+          < RouterContainer/>
 
     </>
   )
