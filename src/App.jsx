@@ -15,11 +15,13 @@ import FHControledComponents from "./components/FormHandling/FHControledComponen
 import FHReactHook from "./components/FormHandling/FHReactHook";
 import FHParentComponent from "./components/FormHandling/formData/FHParentComponent";
 import RouterContainer from "./components/Routing/routingParent/RouterContainer";
+import PP from './PP'
 
 function App(){
   return (
     // <> this sign called fragments, without creating a new div we can return multiple components
     <> 
+      <div className="h-screen bg-slate-800">
         {/* <Card /> */}
         {/* <State /> */}
         {/* < Addproperty /> */}
@@ -35,8 +37,9 @@ function App(){
         {/* < FHControledComponents /> */}
         {/* < FHReactHook /> */}
         {/* < FHParentComponent /> */}
-          < RouterContainer/>
-
+        {/* < RouterContainer/> */}
+        < PP />
+        </div>
     </>
   )
 }
